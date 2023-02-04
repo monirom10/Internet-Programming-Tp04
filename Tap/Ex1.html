@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap</title>
+    <script src="jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <div class="container w-8/12 bg-gray-100">
+        <div class="header">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam!</p>
+        </div>
+        <div class="image overflow-hidden w-10/12">
+            <!-- <img class="rounded-lg" src="image/fly away.png" alt=""> -->
+            <img src="https://media.istockphoto.com/id/618202000/photo/man-hiking-silhouette-in-mount-everest-himalayan.jpg?s=612x612&w=0&k=20&c=Ek_nXBMRbjwI44DcMUJa-P28b4AmlFuNGTj8x1Yrafg=" alt="">
+        </div>
+        <header>
+            <nav>
+                <ul class="tabs bg-gray-300 rounded-t-lg ">
+                    <li class="tab is-active rounded-tl-lg hover:bg-white font-bold">
+                        <a data-switcher data-tab="1">History</a>
+                    </li>
+                    <li class="tab hover:bg-white font-bold">
+                        <a data-switcher data-tab="2">Vision</a>
+                    </li>
+                    <li class="tab rounded-tr-lg hover:bg-white font-bold">
+                        <a data-switcher data-tab="3">Goals</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="pages m-auto pl-4 pr-4 w-10/12 rounded-b-lg">
+                <div class="page is-active pl-4 rounded-t-lg w-full" data-page="1">
+                    <h2 class="mb-4 pr-8 pt-8 font-bold">History</h2>
+                    <p class="text-sm text-zinc-900 pb-4">I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo
+                        kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde try-
+                        hard. woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman
+                        chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos single-
+                        origin coffee art party migas plaid pop-up.
+                    </p>
+                </div>
+                <div class="page pl-4 w-full" data-page="2">
+                    <h2 class="mb-4 pt-8 font-bold">Vision</h2>
+                    <p class="text-sm text-zinc-900 pb-4">Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth crucifix offal deep v hella biodiesel.
+                        Church-key listicle polaroid put a bird on it chiltwave palo santo enamel pin, tattooed meggings
+                        franzen Ia croix cray. Retro yr aesthetic four loko tbh helvetica air plant, neutra palo santo tofu
+                        mumblecore. Hoodie bushwick pour-over jean shorts chartreuse shabby chic. Roof party hammock
+                        master cleanse pop-up truffaut, bicycle rights skateboard affogato readymade sustainable deep v
+                        live-edge schlitz narwhal. <br> <br>
+                        list item <br>
+                        list item <br>
+                        list item <br>
+                    </p>
+                </div>
+                <div class="page pl-4 w-full" data-page="3">
+                    <h2 class="mb-4 pt-8 font-bold">Goals</h2>
+                    <p class="text-sm text-zinc-900 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Placeat animi vero saepe molestias incidunt quasi adipisci, 
+                      Placeat animi vero saepe molestias incidunt quasi adipisci,
+                      itaque cumque maiores porro?
+                    </p>
+                </div>
+            </section>
+          </main>
+    </div>
+   <script src="Ex1.js"></script>
+</body>
+</html>
